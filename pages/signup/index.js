@@ -17,7 +17,7 @@ function Login() {
             variants={variants}
             transition={{ type: 'linear' }}
             className="bg-gray-100 dark:bg-gray-900">
-            <div className=" m-auto xl:container px-12 sm:px-0 mx-auto">
+            <div className="h-screen m-auto xl:container px-12 sm:px-0 mx-auto">
                 <div className="mx-auto h-full sm:w-max">
                     <div className="m-auto  py-12">
                         <div className="space-y-4">

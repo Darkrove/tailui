@@ -16,7 +16,7 @@ function Login() {
             variants={variants}
             transition={{ type: 'linear' }}
             className="bg-gray-100 dark:bg-gray-900">
-            <div className=" m-auto xl:container px-12 sm:px-0 mx-auto">
+            <div className="h-screen m-auto xl:container px-12 sm:px-0 mx-auto">
                 <div className="mx-auto h-full sm:w-max">
                     <div className="m-auto  py-12">
                         <div className="space-y-4">
@@ -75,11 +75,12 @@ function Login() {
                                 </div>
 
                                 <div>
-                                    <button
+                                    <Link
+                                        href="/"
                                         className="w-full rounded-full bg-sky-500 dark:bg-sky-400 h-11 flex items-center justify-center px-6 py-3 transition hover:bg-sky-600 focus:bg-sky-600 active:bg-sky-800"
                                     >
                                         <span className="text-base font-semibold text-white dark:text-gray-900">Login</span>
-                                    </button>
+                                    </Link>
                                     <button href="#" type="reset" className="-ml-3 w-max p-3">
                                         <Link href="/signup" className="text-sm tracking-wide text-sky-600 dark:text-sky-400">Create new account</Link>
                                     </button>
