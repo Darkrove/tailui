@@ -34,8 +34,7 @@ function Login() {
                                     <div className="w-max mx-auto flex items-center justify-center space-x-4">
                                         <img src="images/google.svg" className="w-5" alt="" />
                                         <span className="block w-max text-sm font-semibold tracking-wide text-cyan-700 dark:text-white"
-                                        >With Google</span
-                                        >
+                                        >With Google</span>
                                     </div>
                                 </button>
                                 <button
@@ -76,7 +75,7 @@ function Login() {
 
                                 <div>
                                     <Link
-                                        href="/"
+                                        href="/dashboard"
                                         className="w-full rounded-full bg-sky-500 dark:bg-sky-400 h-11 flex items-center justify-center px-6 py-3 transition hover:bg-sky-600 focus:bg-sky-600 active:bg-sky-800"
                                     >
                                         <span className="text-base font-semibold text-white dark:text-gray-900">Login</span>

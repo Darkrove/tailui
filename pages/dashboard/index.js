@@ -1,12 +1,10 @@
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
 import { motion } from "framer-motion";
 
-import Welcome from "../components/Welcome.page"
-import Footer from "../components/Footer.component"
+import Navigation from "../../components/Navbar.component";
+import Sidebar from "../../components/Sidebar.component";
+import Space from "../../components/Space.component"
 
-const Home = () => {
+const Dashboard = () => {
   const variants = {
     hidden: { opacity: 0, x: -200, y: 0 },
     enter: { opacity: 1, x: 0, y: 0 },
@@ -20,10 +18,11 @@ const Home = () => {
       variants={variants}
       transition={{ type: "linear" }}
     >
-      <Welcome/>
-      <Footer/>
+      <Sidebar />
+      <Navigation />
+      <Space />
     </motion.main>
   );
 };
 
-export default Home;
+export default Dashboard;
