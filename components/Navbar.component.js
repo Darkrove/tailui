@@ -3,7 +3,7 @@ import React from "react";
 function Navbar() {
   return (
     <div className="sticky top-0 ml-auto lg:w-[75%] xl:w-[80%] 2xl:w-[85%]">
-      <div className="h-16 border-b bg-white dark:bg-gray-800 dark:border-gray-700 lg:py-2.5">
+      <div className="h-16 border-b bg-white dark:bg-gray-900 dark:border-gray-700 lg:py-2.5">
         <div className="flex items-center justify-between space-x-4 px-6 2xl:container">
           <h5
             hidden
