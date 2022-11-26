@@ -33,12 +33,12 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-### Reference
+## Reference
 
 1) https://tailus.io/
 2) https://www.framer.com/motion/
 
-### Screenshot
+## Screenshot
 ![image](https://user-images.githubusercontent.com/53792139/204077274-1286aace-420d-419c-9c2e-2914b63eed3c.png)
 ![image](https://user-images.githubusercontent.com/53792139/204077280-e050fa41-e8a2-4c09-9541-0755374b61d8.png)
 ![image](https://user-images.githubusercontent.com/53792139/204077268-eae8dff0-889b-4714-90a4-f632dfca7fc0.png)
