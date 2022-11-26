@@ -39,7 +39,14 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 2) https://www.framer.com/motion/
 
 ## Screenshot
-![image](https://user-images.githubusercontent.com/53792139/204077274-1286aace-420d-419c-9c2e-2914b63eed3c.png)
-![image](https://user-images.githubusercontent.com/53792139/204077280-e050fa41-e8a2-4c09-9541-0755374b61d8.png)
-![image](https://user-images.githubusercontent.com/53792139/204077268-eae8dff0-889b-4714-90a4-f632dfca7fc0.png)
+## dark theme
+![image](https://user-images.githubusercontent.com/53792139/204090543-7ef0ac2e-4ecd-4a27-badc-f231912c98df.png)
+![image](https://user-images.githubusercontent.com/53792139/204090550-dab0f5c1-2b94-4b73-a986-787b809c76ca.png)
+![image](https://user-images.githubusercontent.com/53792139/204090697-49d8acfe-b614-472a-b92c-1ffc24f4858b.png)
+
+# light theme
+![image](https://user-images.githubusercontent.com/53792139/204090764-9dacb015-49ef-4eee-afa2-6a9d56240366.png)
+![image](https://user-images.githubusercontent.com/53792139/204090868-4fa7b536-72f9-4e35-a59d-0d9ccc3f7de9.png)
+![image](https://user-images.githubusercontent.com/53792139/204090825-89ccb244-a334-4af1-8017-dfeef4616d11.png)
+
 
