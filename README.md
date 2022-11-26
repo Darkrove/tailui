@@ -40,13 +40,17 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Screenshot
 ## dark theme
-![image](https://user-images.githubusercontent.com/53792139/204090543-7ef0ac2e-4ecd-4a27-badc-f231912c98df.png)
-![image](https://user-images.githubusercontent.com/53792139/204090550-dab0f5c1-2b94-4b73-a986-787b809c76ca.png)
-![image](https://user-images.githubusercontent.com/53792139/204090697-49d8acfe-b614-472a-b92c-1ffc24f4858b.png)
+![image](https://user-images.githubusercontent.com/53792139/204098134-ab923f71-2213-48cf-89c9-3012403a8b50.png)
+![image](https://user-images.githubusercontent.com/53792139/204098144-51724769-dace-458f-87c3-0f85fe24b709.png)
+![image](https://user-images.githubusercontent.com/53792139/204098147-1bc840a9-4452-4c9e-93a8-aafda3fe0b77.png)
+![image](https://user-images.githubusercontent.com/53792139/204098166-0c14f3d4-5545-44cb-adb9-a6304c512dcf.png)
+
 
 # light theme
-![image](https://user-images.githubusercontent.com/53792139/204090764-9dacb015-49ef-4eee-afa2-6a9d56240366.png)
-![image](https://user-images.githubusercontent.com/53792139/204090868-4fa7b536-72f9-4e35-a59d-0d9ccc3f7de9.png)
-![image](https://user-images.githubusercontent.com/53792139/204090825-89ccb244-a334-4af1-8017-dfeef4616d11.png)
+![image](https://user-images.githubusercontent.com/53792139/204098197-dd3b42f1-1b8e-4730-8102-3c1a5b2627d9.png)
+![image](https://user-images.githubusercontent.com/53792139/204098276-40ac426a-8825-4783-ba7a-a03228d1cd9b.png)
+![image](https://user-images.githubusercontent.com/53792139/204098212-858833c5-df3a-4fef-a36f-3cca2db800ac.png)
+![image](https://user-images.githubusercontent.com/53792139/204098228-bee97c44-bf12-4b71-982e-f216b869022c.png)
+
 
 
