@@ -96,7 +96,7 @@ const Navigation = () => {
                                         d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"
                                     />
                                 </svg>
-                                <span className="group-hover:text-gray-700 dark:group-hover:text-gray-50">Reports</span>
+                                <span className="group-hover:text-gray-700 dark:group-hover:text-gray-50">Peers</span>
                             </a>
                         </li>
                         <li>
@@ -144,7 +144,7 @@ const Navigation = () => {
                                         clipRule="evenodd"
                                     />
                                 </svg>
-                                <span className="group-hover:text-gray-700 dark:group-hover:text-white">Finance</span>
+                                <span className="group-hover:text-gray-700 dark:group-hover:text-white">Settings</span>
                             </a>
                         </li>
                     </ul>
