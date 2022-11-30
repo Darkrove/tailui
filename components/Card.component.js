@@ -109,7 +109,7 @@ function Card() {
 			return (
 				<div
 					key={img.id}
-					class="group p-2 sm:p-4 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10"
+					class="group p-2 sm:p-4 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl "
 				>
 					<div class="relative overflow-hidden rounded-xl">
 						<img
@@ -142,7 +142,7 @@ function Card() {
 		<div>
 			<div>
 				<div class="xl:container m-auto p-6 text-gray-600 md:px-6 xl:px-6">
-					<div class="grid gap-2 md:grid-cols-2 lg:grid-cols-4">
+					<div class="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
 						{renderCard()}
 					</div>
 				</div>
