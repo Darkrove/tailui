@@ -9,7 +9,7 @@ function Navbar() {
             hidden
             className="text-2xl font-medium text-gray-600 lg:block dark:text-white"
           >
-            Dashboard
+            Hello & Welcome 👋🏽
           </h5>
           <button className="-mr-2 h-16 w-12 border-r lg:hidden dark:border-gray-700 dark:text-gray-300">
             <svg
@@ -26,6 +26,15 @@ function Navbar() {
                 d="M4 6h16M4 12h16M4 18h16"
               />
             </svg>
+          </button>
+          {/* <!-- metamask wallet connect --> */}
+          <button className="h-11 rounded-full border border-gray-300 px-6 transition active:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800 dark:hover:border-gray-700">
+            <div className="w-max mx-auto flex items-center justify-center space-x-4">
+              <img src="images/metamask-icon.svg" className="w-5" alt="" />
+              <span className="block w-max text-sm font-semibold tracking-wide text-cyan-700 dark:text-white">
+                Connect Wallet
+              </span>
+            </div>
           </button>
           <div className="flex space-x-4">
             {/* <!--search bar --> */}
@@ -70,25 +79,7 @@ function Navbar() {
                 ></path>
               </svg>
             </button>
-            <button
-              aria-label="chat"
-              className="h-10 w-10 rounded-xl border bg-gray-100 active:bg-gray-200 dark:bg-gray-700 dark:border-gray-600 dark:active:bg-gray-800"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="m-auto h-5 w-5 text-gray-600 dark:text-gray-300"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"
-                />
-              </svg>
-            </button>
+
             <button
               aria-label="notification"
               className="h-10 w-10 rounded-xl border bg-gray-100 active:bg-gray-200 dark:bg-gray-700 dark:border-gray-600 dark:active:bg-gray-800"

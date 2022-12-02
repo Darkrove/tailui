@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function Welcome() {
 	return (
-		<div className="dark:bg-gray-900">
+		<div className="dark:bg-gray-900 overflow-x-hidden">
 			<header>
 				<input
 					type="checkbox"
@@ -61,7 +61,7 @@ function Welcome() {
 									></div>
 								</label>
 							</div>
-							<div className="navmenu hidden w-full flex-wrap justify-end items-center mb-16 space-y-8 p-6 border border-gray-100 rounded-3xl shadow-2xl shadow-gray-300/20 bg-white dark:bg-gray-800 lg:space-y-0 lg:p-0 lg:m-0 lg:flex md:flex-nowrap lg:bg-transparent lg:w-7/12 lg:shadow-none dark:shadow-none dark:border-gray-700 lg:border-0">
+							<div className="navmenu hidden w-full flex-wrap justify-end items-center mb-16 space-y-8 p-6 border border-gray-100 rounded-3xl shadow-2xl shadow-gray-300/20 dark:bg-gray-800 lg:space-y-0 lg:p-0 lg:m-0 lg:flex md:flex-nowrap lg:bg-transparent lg:w-7/12 lg:shadow-none dark:shadow-none dark:border-gray-700 lg:border-0">
 								<div className="text-gray-600 dark:text-gray-300 lg:pr-4">
 									<ul className="space-y-6 tracking-wide font-medium text-base lg:text-sm lg:flex lg:space-y-0">
 										<li>
@@ -243,10 +243,10 @@ function Welcome() {
 								></div>
 								<img
 									src="images/globalization-cuate.svg"
-									className="relative w-full"
+									className="relative w-screen"
 									alt="wath illustration"
 									loading="lazy"
-									width="320"
+									width="280"
 									height="280"
 								/>
 							</div>
@@ -254,7 +254,7 @@ function Welcome() {
 					</div>
 				</div>
 			</div>
-			<div className="h-0 lg:h-16 xl:h-64 dark:bg-gray-900 bg-gray-100"></div>
+			<div className="h-0 w-full lg:h-16 xl:h-64 dark:bg-gray-900 bg-gray-100"></div>
 			
 		</div>
 	);
