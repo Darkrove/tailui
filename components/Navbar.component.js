@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
+import DarkContext from "../context/DarkContext";
+import { shortenAddress } from "../utils/shortenAddress";
 
 function Navbar() {
+  const { currentAccount ,connectWallet } = useContext(DarkContext)
   return (
     <div className="sticky z-10 top-0 ml-auto lg:w-[75%] xl:w-[80%] 2xl:w-[85%]">
       <div className="h-16 border-b bg-white dark:bg-gray-900 dark:border-gray-700 lg:py-2.5">
@@ -9,7 +12,7 @@ function Navbar() {
             hidden
             className="text-2xl font-medium text-gray-600 lg:block dark:text-white"
           >
-            Hello & Welcome 👋🏽
+            Welcome 👋🏽
           </h5>
           <button className="-mr-2 h-16 w-12 border-r lg:hidden dark:border-gray-700 dark:text-gray-300">
             <svg
@@ -26,16 +29,7 @@ function Navbar() {
                 d="M4 6h16M4 12h16M4 18h16"
               />
             </svg>
-          </button>
-          {/* <!-- metamask wallet connect --> */}
-          <button className="h-11 rounded-full border border-gray-300 px-6 transition active:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800 dark:hover:border-gray-700">
-            <div className="w-max mx-auto flex items-center justify-center space-x-4">
-              <img src="images/metamask-icon.svg" className="w-5" alt="" />
-              <span className="block w-max text-sm font-semibold tracking-wide text-cyan-700 dark:text-white">
-                Connect Wallet
-              </span>
-            </div>
-          </button>
+          </button>          
           <div className="flex space-x-4">
             {/* <!--search bar --> */}
             <div hidden className="md:block">

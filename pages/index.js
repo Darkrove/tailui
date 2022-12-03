@@ -19,6 +19,7 @@ const Home = () => {
       exit="exit"
       variants={variants}
       transition={{ type: "linear" }}
+      className="overflow-x-hidden"
     >
       <Welcome/>
       <Footer/>

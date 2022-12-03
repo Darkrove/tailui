@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 import Navigation from "../../components/Navbar.component";
 import Sidebar from "../../components/Sidebar.component";
-import Space from "../../components/Space.component"
+import Space from "../../components/Space.component";
 
 const Dashboard = () => {
   const variants = {
@@ -11,17 +11,20 @@ const Dashboard = () => {
     exit: { opacity: 0, x: 0, y: -100 },
   };
   return (
-    <motion.main
-      initial="hidden"
-      animate="enter"
-      exit="exit"
-      variants={variants}
-      transition={{ type: "linear" }}
-    >
+    // <motion.main
+    //   initial="hidden"
+    //   animate="enter"
+    //   exit="exit"
+    //   variants={variants}
+    //   transition={{ type: "linear" }}
+    // >
+    <div>
       <Sidebar />
       <Navigation />
       <Space />
-    </motion.main>
+    </div>
+
+    // </motion.main>
   );
 };
 
