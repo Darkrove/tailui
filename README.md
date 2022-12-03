@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.s](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
@@ -37,20 +37,27 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 1) https://tailus.io/
 2) https://www.framer.com/motion/
+3) https://nextjs.org/docs/getting-started
 
 ## Screenshot
 ## dark theme
-![image](https://user-images.githubusercontent.com/53792139/204098134-ab923f71-2213-48cf-89c9-3012403a8b50.png)
-![image](https://user-images.githubusercontent.com/53792139/204098144-51724769-dace-458f-87c3-0f85fe24b709.png)
-![image](https://user-images.githubusercontent.com/53792139/204098147-1bc840a9-4452-4c9e-93a8-aafda3fe0b77.png)
-![image](https://user-images.githubusercontent.com/53792139/204098166-0c14f3d4-5545-44cb-adb9-a6304c512dcf.png)
+![image](https://user-images.githubusercontent.com/53792139/205363902-f48e2f4c-da77-467c-97f1-6435e9d8e0b5.png)
 
+![image](https://user-images.githubusercontent.com/53792139/205363948-d4bdea65-5c41-430c-86bc-99e9ef7ab59c.png)
 
-# light theme
-![image](https://user-images.githubusercontent.com/53792139/204098197-dd3b42f1-1b8e-4730-8102-3c1a5b2627d9.png)
-![image](https://user-images.githubusercontent.com/53792139/204098276-40ac426a-8825-4783-ba7a-a03228d1cd9b.png)
-![image](https://user-images.githubusercontent.com/53792139/204098212-858833c5-df3a-4fef-a36f-3cca2db800ac.png)
-![image](https://user-images.githubusercontent.com/53792139/204098228-bee97c44-bf12-4b71-982e-f216b869022c.png)
+![image](https://user-images.githubusercontent.com/53792139/205363980-7aa9bb6a-b929-4e90-801c-11badedce4e0.png)
+
+![image](https://user-images.githubusercontent.com/53792139/205364067-21a0816f-fbf2-4efb-afdc-b6eb62f569c0.png)
+
+## Light theme
+![image](https://user-images.githubusercontent.com/53792139/205364380-2fa5e10d-bacc-4b38-9c33-3cc2b669d478.png)
+
+![image](https://user-images.githubusercontent.com/53792139/205364340-a327ce1b-0eda-439a-879b-3998069e8d6b.png)
+
+![image](https://user-images.githubusercontent.com/53792139/205364540-eeef0500-d156-434b-a512-1af51bc27553.png)
+
+![image](https://user-images.githubusercontent.com/53792139/205364166-8a18ae7d-54d6-478b-b0fb-2e960704a071.png)
+
 
 
 
