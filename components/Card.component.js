@@ -9,6 +9,7 @@ function cn(...classes) {
 }
 function Card() {
   const [isLoading, setLoading] = useState(true);
+  
   const renderCard = () => {
     let images = data.map((img) => {
       const [showModal, setShowModal] = useState(false);
@@ -42,9 +43,9 @@ function Card() {
                 Voluptates harum aliquam totam, doloribus eum impedit atque!
                 Temporibus...
               </p> */}
-            <button className="inline-block" >
+            {/* <button className="inline-block" >
               <span className="text-primary">download</span>
-            </button>
+            </button> */}
             {showModal && (
               <ImageModal
                 id={img.id}

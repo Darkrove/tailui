@@ -1,8 +1,28 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
-export default function Modal({ id, setOpenModal, src }) {
+export default function ImageModal({ id, setOpenModal, src }) {
   const [isLoading, setLoading] = useState(true);
+  const download = async(href) => {
+    // console.log(href);
+    await fetch(href, {
+      method: "GET",
+      headers: {}
+    })
+      .then(response => {
+        response.arrayBuffer().then(function(buffer) {
+          const url = window.URL.createObjectURL(new Blob([buffer]));
+          const link = document.createElement("a");
+          link.href = url;
+          link.setAttribute("download", "image.png"); //or any other extension
+          document.body.appendChild(link);
+          link.click();
+        });
+      })
+      .catch(err => {
+        console.log(err);
+      });
+  };
   return (
     <>
       <div className="fixed inset-0 z-10 overflow-y-auto">
@@ -29,8 +49,9 @@ export default function Modal({ id, setOpenModal, src }) {
                 </div>
                 <div className="items-center gap-2 mt-3 sm:flex">
                   <button
-                    className="w-full mt-2 p-2.5 flex-1 text-white bg-cyan-600 rounded-md outline-none ring-offset-2 ring-red-600 focus:ring-2"
-                    onClick={() => setOpenModal(false)}
+                    className="w-full mt-2 p-2.5 flex-1 text-white bg-cyan-600 rounded-md outline-none ring-offset-2 ring-white-600 focus:ring-2"
+                    download
+                    onClick={() => download(src)}
                   >
                     Download
                   </button>
