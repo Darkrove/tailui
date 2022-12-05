@@ -1,8 +1,5 @@
 import { motion } from "framer-motion";
-
-import Navigation from "../../components/Navbar.component";
-import Sidebar from "../../components/Sidebar.component";
-import Space from "../../components/Space.component";
+import Card from "../../components/Card.component";
 
 const Dashboard = () => {
   const variants = {
@@ -19,9 +16,7 @@ const Dashboard = () => {
     //   transition={{ type: "linear" }}
     // >
     <div>
-      <Sidebar />
-      <Navigation />
-      <Space />
+      <Card/>
     </div>
 
     // </motion.main>
