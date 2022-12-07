@@ -5,7 +5,7 @@ const nextConfig = {
     forceSwcTransforms: true,
   },
   images: {
-    domains: ['bit.ly','images.unsplash.com','plus.unsplash.com'],
+    domains: ['www.iconbunny.com','images.unsplash.com','plus.unsplash.com','play-lh.googleusercontent.com'],
   },
 }
 

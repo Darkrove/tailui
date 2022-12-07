@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
-export default function ImageModal({ id, setOpenModal, src }) {
+export default function ImageModal({ id, setOpenModal, src, name}) {
   const [isLoading, setLoading] = useState(true);
   const download = async(href) => {
     // console.log(href);
@@ -14,7 +14,7 @@ export default function ImageModal({ id, setOpenModal, src }) {
           const url = window.URL.createObjectURL(new Blob([buffer]));
           const link = document.createElement("a");
           link.href = url;
-          link.setAttribute("download", "image.png"); //or any other extension
+          link.setAttribute("download", name); //or any other extension
           document.body.appendChild(link);
           link.click();
         });
@@ -25,7 +25,7 @@ export default function ImageModal({ id, setOpenModal, src }) {
   };
   return (
     <>
-      <div className="fixed inset-0 z-10 overflow-y-auto">
+      <div className="fixed inset-0 z-30 overflow-y-auto">
         <div
           className="fixed inset-0 w-full h-full bg-black opacity-90"
           onClick={() => setOpenModal(false)}

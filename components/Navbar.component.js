@@ -5,14 +5,14 @@ import { shortenAddress } from "../utils/shortenAddress";
 function Navbar() {
   const { currentAccount ,connectWallet } = useContext(DarkContext)
   return (
-    <div className="sticky z-10 top-0 ml-auto lg:w-[75%] xl:w-[80%] 2xl:w-[85%]">
+    <div className="sticky z-[20] top-0 ml-auto lg:w-[75%] xl:w-[80%] 2xl:w-[85%]">
       <div className="h-16 border-b bg-white dark:bg-gray-900 dark:border-gray-700 lg:py-2.5">
         <div className="flex items-center justify-between space-x-4 px-6 2xl:container">
           <h5
             hidden
             className="text-2xl font-medium text-gray-600 lg:block dark:text-white"
           >
-            Welcome 👋🏽
+            Welcome 👋
           </h5>
           <button className="-mr-2 h-16 w-12 border-r lg:hidden dark:border-gray-700 dark:text-gray-300">
             <svg

@@ -2,7 +2,6 @@ import { useState } from "react";
 import { data } from "../utils/imageData";
 import Image from "next/image";
 import ImageModal from "./modal/ImageModel";
-import Link from "next/link";
 
 function cn(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -51,6 +50,7 @@ function Card() {
                 id={img.id}
                 setOpenModal={setShowModal}
                 src={img.src}
+                name={img.name}
               />
             )}
           </div>
@@ -62,7 +62,7 @@ function Card() {
   return (
     <div>
       <div>
-        <div className="xl:container m-auto p-6 text-gray-600 md:px-6 xl:px-6">
+        <div className="xl:container mt-5 m-auto text-gray-600">
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
             {renderCard()}
           </div>

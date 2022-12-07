@@ -10,12 +10,14 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^4.6.7",
+    "daisyui": "^2.42.1",
     "eslint": "8.28.0",
     "eslint-config-next": "13.0.5",
     "framer-motion": "^7.6.12",
     "next": "13.0.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1"
   },
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",
