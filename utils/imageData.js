@@ -19,7 +19,7 @@ export const data = [
     },
     {
         id: 3,
-        icon: "https://www.iconbunny.com/icons/media/catalog/product/1/7/1740.10-pdf-icon-iconbunny.jpg ",
+        icon: "https://www.iconbunny.com/icons/media/catalog/product/1/7/1740.10-pdf-icon-iconbunny.jpg",
         src: "https://images.unsplash.com/photo-1474552226712-ac0f0961a954?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
         name: "techstorm.pdf",
         modified: "Dec 13, 2022",
