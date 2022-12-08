@@ -18,9 +18,9 @@ const Dashboard = () => {
     // >
     <div className="p-6 2xl:container md:px-6 xl:px-6">
       <div className="h-full items-center justify-center">
-      <h1 className="pb-4 text-xl bold text-cyan-400"> Recent ...</h1>
-        <Table />
-        <h1 className="pt-4 text-xl bold text-cyan-400">All Images ...</h1>
+        {/* <h1 className="pb-4 text-xl bold text-cyan-400"> Recent ...</h1>
+        <Table /> */}
+        <h1 className="text-xl bold text-cyan-400">All Images ...</h1>
         <Card />
       </div>
     </div>

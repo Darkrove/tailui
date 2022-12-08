@@ -1003,5 +1003,5 @@ module.exports = {
     "active",
     "disabled",
   ],
-  plugins: [require('@tailwindcss/aspect-ratio'),require("daisyui")],
+  plugins: [require('@tailwindcss/aspect-ratio')],
 }

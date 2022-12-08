@@ -81,3 +81,6 @@ function Table() {
 }
 
 export default Table
+
+// mAdd plugin inside tailwind config
+// plugins: [require('@tailwindcss/aspect-ratio'),require("daisyui")],
