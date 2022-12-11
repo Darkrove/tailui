@@ -6,7 +6,7 @@ export const data = [
         name: "dronies_3635.jpg",
         modified: "Dec 13, 2022",
         type: "JPG",
-        size: "3.5 MB",
+        size: "1.5 MB",
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const data = [
         name: "video.mp4",
         modified: "Dec 13, 2022",
         type: "MP4",
-        size: "3.5 MB",
+        size: "34.5 MB",
     },
     {
         id: 3,
